@@ -347,7 +347,6 @@ def get_target_data(paths, chains=None, is_fasta=False, is_mmcif=False):
             if chains
             else [ascii_upperlower[i] for i, s in enumerate(target_sequences)]
         )
-
     return target_chains, target_sequences, target_models
 
 
