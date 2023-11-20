@@ -12,4 +12,5 @@ ml-collections==0.1.0
 numpy==1.21.6
 pandas==1.3.4
 scipy==1.7.0
-tensorflow-cpu==2.11.0
+tensorflow-cpu==2.11.0 ; sys_platform=="linux"
+tensorflow-macos==2.15.0 ; sys_platform=="darwin"
